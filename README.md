@@ -142,3 +142,8 @@ style-loader@0.13.0 jquery@2.2.1 foundation-sites@6.2.0 --save-dev
 ##############################
 #insatalación:
 $ npm i sass-loader node-sass --save-dev
+
+##############################
+########    TESTS    #########
+##############################
+$ npm install karma karma-chrome-launcher karma-mocha karma-mocha-reporter karma-sourcemap-loader karma-webpack mocha expect --save-dev
