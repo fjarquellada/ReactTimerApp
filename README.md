@@ -68,7 +68,7 @@ npm install --save react react-dom
 npm install --save-dev babel babel-core babel-loader babel-preset-es2015 babel-preset-react
 
 #Con esto ya tenemos todo lo necesario en el fichero package.json, ahora se puede borrar
-#tranquilamente el directorio node_modules y ejecutar npm install, así 
+#tranquilamente el directorio node_modules y ejecutar npm install, así
 #se volverá a crear el directorio con todas las dependencias necesarias
 npm install
 
@@ -91,7 +91,7 @@ git commit -a -m 'message'
 
 #Crear clave ssh para GitHub
 #Se mira si hay alguna ssh key en el directorio .ssh
-ls -al ~/.ssh 
+ls -al ~/.ssh
 #comando para crear la llave
 ssh-keygen -t rsa -b 4096 -C 'fj.arquellada@gmail.com'
 #
@@ -117,16 +117,13 @@ brew install heroku
 $heroku login
 #Crear aplicaicón en heroku
 $ heroku create
-Creating app... done, ⬢ fierce-springs-71844
-https://fierce-springs-71844.herokuapp.com/ | https://git.heroku.com/fierce-springs-71844.git
-#Verificar rutas de repositorios 
+https://pure-brook-59729.herokuapp.com/ | https://git.heroku.com/pure-brook-59729.git
+#Verificar rutas de repositorios
 $ git remote -v
-heroku	https://git.heroku.com/fierce-springs-71844.git (fetch)
-heroku	https://git.heroku.com/fierce-springs-71844.git (push)
-origin	https://github.com/fjarquellada/ReactWeather.git (fetch)
-origin	https://github.com/fjarquellada/ReactWeather.git (push)
 #Subir aplicación a Heroku
 $ git push heroku master
+#Para abrir la aplicación en heroku ejecutar
+$ heroku open
 #Después de hacer cambios en el código para subirlos a heroku
 $ webpack #crea el nuevo fichero builder.js
 $ git commit -a -m 'Mensage' # commit de los cambios
