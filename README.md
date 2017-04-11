@@ -147,3 +147,6 @@ $ npm i sass-loader node-sass --save-dev
 ########    TESTS    #########
 ##############################
 $ npm install karma karma-chrome-launcher karma-mocha karma-mocha-reporter karma-sourcemap-loader karma-webpack mocha expect --save-dev
+
+#Para poder testear componentes hay que instalar:
+$ npm i react-addons-test-utils --save-dev
